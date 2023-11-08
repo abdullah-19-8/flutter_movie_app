@@ -19,6 +19,7 @@ INJECTED from /Users/abdullaahmad/flutter-movie-app/android/app/src/main/Android
 INJECTED from /Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:1:1-41:12
 INJECTED from /Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:1:1-41:12
 MERGED from /Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:1:1-41:12
+MERGED from [:shared_preferences_android] /Users/abdullaahmad/flutter-movie-app/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:sqflite] /Users/abdullaahmad/flutter-movie-app/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:url_launcher_android] /Users/abdullaahmad/flutter-movie-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
 MERGED from [:path_provider_android] /Users/abdullaahmad/flutter-movie-app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
@@ -80,6 +81,8 @@ uses-sdk
 INJECTED from /Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/abdullaahmad/flutter-movie-app/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/abdullaahmad/flutter-movie-app/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:sqflite] /Users/abdullaahmad/flutter-movie-app/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:sqflite] /Users/abdullaahmad/flutter-movie-app/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:url_launcher_android] /Users/abdullaahmad/flutter-movie-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
