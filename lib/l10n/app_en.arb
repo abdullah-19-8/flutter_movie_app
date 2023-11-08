@@ -1,0 +1,17 @@
+{
+  "favoritesIsEmpty": "Your favorite list is empty",
+  "addMoviesToFavorites": "Add movies to your watch list by tapping the 'bookmark' icon on the movie's details page",
+  "similar": "Similar",
+  "story": "Story",
+  "favorites": "Favorites",
+  "showMore": "Show more",
+  "oops": "Oops",
+  "tryAgainLater": "Please try again later",
+  "errorMessage": "Something went wrong",
+  "tryAgainLater": "Try Again",
+  "noResults": "No results",
+  "torCinema": "Tor Cinema",
+  "tryAgain": "Try Again",
+  "home": "Home",
+  "languages": "Languages"
+}

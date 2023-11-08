@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.movies_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:3:5-66
+11-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:3:22-64
+12
+13    <queries>
+13-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:35:5-40:15
+14        <intent>
+14-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:36:9-39:18
+15            <action android:name="android.intent.action.VIEW" />
+15-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:37:13-65
+15-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:37:21-62
+16
+17            <data android:scheme="https" />
+17-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:38:13-44
+17-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:38:19-41
+18        </intent>
+19    </queries>
+20
+21    <permission
+21-->[androidx.core:core:1.10.1] /Users/abdullaahmad/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+22        android:name="com.example.movies_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.10.1] /Users/abdullaahmad/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.10.1] /Users/abdullaahmad/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.example.movies_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.10.1] /Users/abdullaahmad/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.10.1] /Users/abdullaahmad/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+26
+27    <application
+28        android:name="android.app.Application"
+28-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:6:9-42
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.10.1] /Users/abdullaahmad/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:7:9-43
+31        android:label="movies_app" >
+31-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:5:9-35
+32        <activity
+32-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:8:9-28:20
+33            android:name="com.example.movies_app.MainActivity"
+33-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:9:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:13:13-163
+35            android:exported="true"
+35-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:10:13-36
+36            android:hardwareAccelerated="true"
+36-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:14:13-47
+37            android:launchMode="singleTop"
+37-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:11:13-43
+38            android:theme="@style/LaunchTheme"
+38-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:12:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:15:13-55
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+47-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:20:13-23:17
+48                android:name="io.flutter.embedding.android.NormalTheme"
+48-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:21:15-70
+49                android:resource="@style/NormalTheme" />
+49-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:22:15-52
+50
+51            <intent-filter>
+51-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:24:13-27:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:25:17-68
+52-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:25:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:26:17-76
+54-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:26:27-74
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+61-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:31:9-33:33
+62            android:name="flutterEmbedding"
+62-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:32:13-44
+63            android:value="2" />
+63-->/Users/abdullaahmad/flutter-movie-app/android/app/src/main/AndroidManifest.xml:33:13-30
+64
+65        <activity
+65-->[:url_launcher_android] /Users/abdullaahmad/flutter-movie-app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+66            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+66-->[:url_launcher_android] /Users/abdullaahmad/flutter-movie-app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+67            android:exported="false"
+67-->[:url_launcher_android] /Users/abdullaahmad/flutter-movie-app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+68            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+68-->[:url_launcher_android] /Users/abdullaahmad/flutter-movie-app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+69
+70        <uses-library
+70-->[androidx.window:window:1.0.0-beta04] /Users/abdullaahmad/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+71            android:name="androidx.window.extensions"
+71-->[androidx.window:window:1.0.0-beta04] /Users/abdullaahmad/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+72            android:required="false" />
+72-->[androidx.window:window:1.0.0-beta04] /Users/abdullaahmad/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+73        <uses-library
+73-->[androidx.window:window:1.0.0-beta04] /Users/abdullaahmad/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+74            android:name="androidx.window.sidecar"
+74-->[androidx.window:window:1.0.0-beta04] /Users/abdullaahmad/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+75            android:required="false" />
+75-->[androidx.window:window:1.0.0-beta04] /Users/abdullaahmad/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+76    </application>
+77
+78</manifest>
