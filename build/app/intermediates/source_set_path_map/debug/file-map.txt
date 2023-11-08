@@ -12,6 +12,8 @@ com.example.movies_app-rs-10 /Users/abdullaahmad/flutter-movie-app/build/app/gen
 com.example.movies_app-mergeDebugResources-11 /Users/abdullaahmad/flutter-movie-app/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
 com.example.movies_app-mergeDebugResources-12 /Users/abdullaahmad/flutter-movie-app/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
 com.example.movies_app-merged_res-13 /Users/abdullaahmad/flutter-movie-app/build/app/intermediates/merged_res/debug
-com.example.movies_app-packaged_res-14 /Users/abdullaahmad/flutter-movie-app/build/path_provider_android/intermediates/packaged_res/debug
-com.example.movies_app-packaged_res-15 /Users/abdullaahmad/flutter-movie-app/build/sqflite/intermediates/packaged_res/debug
-com.example.movies_app-packaged_res-16 /Users/abdullaahmad/flutter-movie-app/build/url_launcher_android/intermediates/packaged_res/debug
+com.example.movies_app-packaged_res-14 /Users/abdullaahmad/flutter-movie-app/build/flutter_native_splash/intermediates/packaged_res/debug
+com.example.movies_app-packaged_res-15 /Users/abdullaahmad/flutter-movie-app/build/path_provider_android/intermediates/packaged_res/debug
+com.example.movies_app-packaged_res-16 /Users/abdullaahmad/flutter-movie-app/build/shared_preferences_android/intermediates/packaged_res/debug
+com.example.movies_app-packaged_res-17 /Users/abdullaahmad/flutter-movie-app/build/sqflite/intermediates/packaged_res/debug
+com.example.movies_app-packaged_res-18 /Users/abdullaahmad/flutter-movie-app/build/url_launcher_android/intermediates/packaged_res/debug

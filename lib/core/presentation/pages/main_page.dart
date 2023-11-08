@@ -63,7 +63,7 @@ class _MainPageState extends State<MainPage> {
             ),
           ),
           BottomNavigationBarItem(
-            label: localize.about,
+            label: localize.aboutUs,
             icon: const Icon(
               Icons.person,
               size: AppSize.s20,
