@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
+import 'package:movies_app/about_us/views/about_us_view.dart';
 import 'package:movies_app/core/presentation/pages/main_page.dart';
 import 'package:movies_app/core/resources/app_routes.dart';
 import 'package:movies_app/movies/presentation/views/movie_details_view.dart';
@@ -12,6 +13,7 @@ const String movieDetailsPath = 'movieDetails/:movieId';
 const String popularMoviesPath = 'popularMovies';
 const String favoritesPath = '/favorites';
 const String settingsPath = '/settings';
+const String aboutUsPath = '/aboutUs';
 
 class AppRouter {
   GoRouter router = GoRouter(
@@ -45,6 +47,13 @@ class AppRouter {
               child: WatchlistView(),
             ),
           ),
+          GoRoute(
+            name: AppRoutes.aboutUsRoute,
+            path: aboutUsPath,
+            pageBuilder: (context, state) => const NoTransitionPage(
+              child: AboutUsViews(),
+            ),
+          ),
         ],
       ),
       GoRoute(
@@ -53,7 +62,7 @@ class AppRouter {
         pageBuilder: (context, state) => const NoTransitionPage(
           child: SettingsView(),
         ),
-      )
+      ),
     ],
   );
 }

@@ -62,6 +62,13 @@ class _MainPageState extends State<MainPage> {
               size: AppSize.s20,
             ),
           ),
+          BottomNavigationBarItem(
+            label: localize.about,
+            icon: const Icon(
+              Icons.person,
+              size: AppSize.s20,
+            ),
+          ),
         ],
         currentIndex: _getSelectedIndex(context),
         onTap: (index) => _onItemTapped(index, context),
@@ -77,6 +84,9 @@ class _MainPageState extends State<MainPage> {
     if (location.startsWith(favoritesPath)) {
       return 1;
     }
+    if (location.startsWith(aboutUsPath)) {
+      return 2;
+    }
     return 0;
   }
 
@@ -87,6 +97,9 @@ class _MainPageState extends State<MainPage> {
         break;
       case 1:
         context.goNamed(AppRoutes.favoriteRoute);
+        break;
+      case 2:
+        context.goNamed(AppRoutes.aboutUsRoute);
         break;
     }
   }

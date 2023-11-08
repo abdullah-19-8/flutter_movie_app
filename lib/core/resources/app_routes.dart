@@ -3,4 +3,5 @@ class AppRoutes {
   static const String movieDetailsRoute = 'movieDetails';
   static const String favoriteRoute = 'favorite';
   static const String settingsRoute = 'setting';
+  static const String aboutUsRoute = 'aboutUs';
 }

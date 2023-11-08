@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -12,6 +14,7 @@ class SettingsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     AppLocalizations localize = AppLocalizations.of(context)!;
+    var language = Localizations.localeOf(context).languageCode.toString();
 
     return Scaffold(
       appBar: AppBar(
@@ -20,17 +23,23 @@ class SettingsView extends StatelessWidget {
           onTap: () {
             Navigator.of(context).pop();
           },
-          child: Container(
-            margin: const EdgeInsets.all(AppMargin.m8),
-            padding: const EdgeInsets.all(AppPadding.p8),
-            decoration: const BoxDecoration(
-              shape: BoxShape.circle,
-              color: AppColors.iconContainerColor,
-            ),
-            child: const Icon(
-              Icons.arrow_back_ios_new_rounded,
-              color: AppColors.secondaryText,
-              size: AppSize.s20,
+          child: Transform(
+            alignment: Alignment.center,
+            transform: language == 'ar' || language == 'fa'
+                ? Matrix4.rotationY(math.pi)
+                : Matrix4.rotationX(0),
+            child: Container(
+              margin: const EdgeInsets.all(AppMargin.m8),
+              padding: const EdgeInsets.all(AppPadding.p8),
+              decoration: const BoxDecoration(
+                shape: BoxShape.circle,
+                color: AppColors.iconContainerColor,
+              ),
+              child: const Icon(
+                Icons.arrow_back_ios_new_rounded,
+                color: AppColors.secondaryText,
+                size: AppSize.s20,
+              ),
             ),
           ),
         ),

@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movies_app/core/domain/entities/media.dart';
@@ -26,6 +28,8 @@ class DetailsCard extends StatelessWidget {
     context
         .read<WatchlistBloc>()
         .add(CheckItemAddedEvent(tmdbId: mediaDetails.tmdbID));
+    var language = Localizations.localeOf(context).languageCode.toString();
+
     return SafeArea(
       child: Stack(
         children: [
@@ -116,16 +120,22 @@ class DetailsCard extends StatelessWidget {
                   onTap: () {
                     Navigator.of(context).pop();
                   },
-                  child: Container(
-                    padding: const EdgeInsets.all(AppPadding.p8),
-                    decoration: const BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: AppColors.iconContainerColor,
-                    ),
-                    child: const Icon(
-                      Icons.arrow_back_ios_new_rounded,
-                      color: AppColors.secondaryText,
-                      size: AppSize.s20,
+                  child: Transform(
+                    alignment: Alignment.center,
+                    transform: language == 'ar' || language == 'fa'
+                        ? Matrix4.rotationY(math.pi)
+                        : Matrix4.rotationX(math.pi / 180),
+                    child: Container(
+                      padding: const EdgeInsets.all(AppPadding.p8),
+                      decoration: const BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: AppColors.iconContainerColor,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_back_ios_new_rounded,
+                        color: AppColors.secondaryText,
+                        size: AppSize.s20,
+                      ),
                     ),
                   ),
                 ),

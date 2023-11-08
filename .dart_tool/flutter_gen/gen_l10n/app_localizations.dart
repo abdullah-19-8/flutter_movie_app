@@ -178,6 +178,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Languages'**
   String get languages;
+
+  /// No description provided for @aboutUs.
+  ///
+  /// In en, this message translates to:
+  /// **'About Us'**
+  String get aboutUs;
+
+  /// No description provided for @about.
+  ///
+  /// In en, this message translates to:
+  /// **'About'**
+  String get about;
+
+  /// No description provided for @aboutApp.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome to Tor Cinema, your one-stop shop for all things movies! Whether you\'re a casual moviegoer or a die-hard cinephile, we have something for everyone. Our Mission Our mission is to provide a comprehensive and user-friendly movie app that allows you to discover, explore, and enjoy the world of cinema. We believe that movies have the power to transport us to different worlds, introduce us to new cultures, and inspire us to dream big. Our Features Browse a vast library of movies: With access to the TMDB API, we offer a comprehensive catalog of movies from around the world, including popular blockbusters, independent gems, and everything in between. Explore detailed movie information: Each movie listing includes a wealth of information, such as plot summaries, cast and crew details, reviews, and trailers. Save your favorite movies: Keep track of your favorite movies by adding them to your personal collection. Enjoy localized content: Our app is available in multiple languages, so you can enjoy movies in the language of your choice. Built with Flutter (Tor Cinema) is built with Flutter, a cross-platform development framework that allows us to create a native-looking app for both iOS and Android devices. This means that you can enjoy all of the app\'s features on your favorite device, regardless of whether it\'s an iPhone, iPad, or Android phone or tablet. We\'re always improving We\'re committed to providing the best possible experience for our users, and we\'re always working to add new features and improve existing ones. We value your feedback, so please let us know if you have any suggestions or requests. Thank you for choosing (Tor Cinema)! We hope you enjoy your time exploring the world of cinema with us.'**
+  String get aboutApp;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
