@@ -88,16 +88,22 @@ class DetailsCard extends StatelessWidget {
                             await launchUrl(url);
                           }
                         },
-                        child: Container(
-                          height: AppSize.s40,
-                          width: AppSize.s40,
-                          decoration: const BoxDecoration(
-                            color: AppColors.primary,
-                            shape: BoxShape.circle,
-                          ),
-                          child: const Icon(
-                            Icons.play_arrow_rounded,
-                            color: AppColors.secondaryText,
+                        child: Transform(
+                          alignment: Alignment.center,
+                          transform: language == 'ar' || language == 'fa'
+                              ? Matrix4.rotationY(math.pi)
+                              : Matrix4.rotationX(0),
+                          child: Container(
+                            height: AppSize.s40,
+                            width: AppSize.s40,
+                            decoration: const BoxDecoration(
+                              color: AppColors.primary,
+                              shape: BoxShape.circle,
+                            ),
+                            child: const Icon(
+                              Icons.play_arrow_rounded,
+                              color: AppColors.secondaryText,
+                            ),
                           ),
                         ),
                       ),
@@ -124,7 +130,7 @@ class DetailsCard extends StatelessWidget {
                     alignment: Alignment.center,
                     transform: language == 'ar' || language == 'fa'
                         ? Matrix4.rotationY(math.pi)
-                        : Matrix4.rotationX(math.pi / 180),
+                        : Matrix4.rotationX(0),
                     child: Container(
                       padding: const EdgeInsets.all(AppPadding.p8),
                       decoration: const BoxDecoration(
