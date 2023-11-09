@@ -12,7 +12,6 @@ import 'package:movies_app/watchlist/presentation/controllers/watchlist_bloc/wat
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Future.delayed(const Duration(seconds: 10));
   FlutterNativeSplash.remove();
   await Hive.initFlutter();
   Hive.registerAdapter(MediaAdapter());
